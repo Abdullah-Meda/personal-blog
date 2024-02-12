@@ -26,6 +26,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", portofolio.views.home, name='home'),
     path("career", portofolio.views.experiences, name='experiences'),
+    path("projects", portofolio.views.projects, name='projects'),
+    path("education", portofolio.views.educations, name='educations'),
 
 ] 
 
